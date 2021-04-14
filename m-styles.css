@@ -47,10 +47,11 @@ article {
 }
 p {
   hyphens: auto;
+  margin-top: 0;
 }
 p + p {
   text-indent: 1.25em;
 }
 .source {
-  column-span: all;
+  /* column-span: all; */
 }
