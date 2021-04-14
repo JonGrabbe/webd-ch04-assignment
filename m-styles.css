@@ -14,18 +14,15 @@ h1 {
   text-transform: uppercase;
   font-weight: 800;
   font-size: 1.75em;
-  line-height: 1.25;
-  margin-top: 1.036em;
-  margin-bottom: 0.2859em;
   text-align: center;
   border-bottom: 1px solid #000;
 }
 h2 {
   font-weight: 600;
-  font-size: 1.314em;
-  line-height: 1.29;
-  margin-top: 1.036em;
-  margin-bottom: 0.2859em;
+  font-size: 1.75em;
+  line-height: 1.25;
+  margin-top: 0.619em;
+  margin-bottom: 0.38em;
 }
 h3 {
   font-size: 1.314em;
