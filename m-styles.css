@@ -10,12 +10,17 @@ h6 {
   font-family: "Avenir Next", "SegoeUI", arial, sans-serif;
   font-weight: 500;
 }
+.source {
+  /* column-span: all; */
+}
 h1 {
-  text-transform: uppercase;
+  /* new styles */
+  font-size: 2.315em; /* 37px */
   font-weight: 800;
-  font-size: 1.75em;
+  text-transform: uppercase;
   text-align: center;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #c8bc9d;
+  column-span: all;
 }
 h2 {
   font-weight: 600;
@@ -47,11 +52,4 @@ p {
 }
 p + p {
   text-indent: 1.25em;
-}
-h1,
-.source {
-  column-span: all;
-}
-h2 {
-  /* column-span: all; */
 }
