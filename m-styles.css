@@ -29,3 +29,9 @@ article {
   max-width: 36em;
   margin: 0 auto;
 }
+p {
+  hyphens: auto;
+}
+p + p {
+  text-indent: 1.25em;
+}
