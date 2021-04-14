@@ -1,0 +1,23 @@
+body {
+  font-family: "Georgia Pro", Georgia, Times, "Times New Roman", Serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Avenir Next", "SegoeUI", arial, sans-serif;
+}
+h1 {
+  text-transform: uppercase;
+}
+abbr {
+  text-transform: lowercase;
+  font-variant: small-caps;
+  line-height: 1.25;
+  letter-spacing: 0.1em;
+}
+article {
+  max-width: 36em;
+}
