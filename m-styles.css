@@ -8,9 +8,16 @@ h4,
 h5,
 h6 {
   font-family: "Avenir Next", "SegoeUI", arial, sans-serif;
+  font-weight: 500;
 }
 h1 {
   text-transform: uppercase;
+  font-weight: 800;
+  text-align: center;
+  border-bottom: 1px solid #000;
+}
+h2 {
+  font-weight: 600;
 }
 abbr {
   text-transform: lowercase;
@@ -20,4 +27,5 @@ abbr {
 }
 article {
   max-width: 36em;
+  margin: 0 auto;
 }
