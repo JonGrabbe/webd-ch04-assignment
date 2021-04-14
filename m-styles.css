@@ -13,11 +13,25 @@ h6 {
 h1 {
   text-transform: uppercase;
   font-weight: 800;
+  font-size: 1.75em;
+  line-height: 1.25;
+  margin-top: 1.036em;
+  margin-bottom: 0.2859em;
   text-align: center;
   border-bottom: 1px solid #000;
 }
 h2 {
   font-weight: 600;
+  font-size: 1.314em;
+  line-height: 1.29;
+  margin-top: 1.036em;
+  margin-bottom: 0.2859em;
+}
+h3 {
+  font-size: 1.314em;
+  line-height: 1.29;
+  margin-top: 0.619em;
+  margin-bottom: 0.38em;
 }
 abbr {
   text-transform: lowercase;
@@ -26,7 +40,9 @@ abbr {
   letter-spacing: 0.1em;
 }
 article {
-  max-width: 36em;
+  max-width: 70em;
+  columns: 20em;
+  column-gap: 1.5em;
   margin: 0 auto;
 }
 p {
@@ -34,4 +50,11 @@ p {
 }
 p + p {
   text-indent: 1.25em;
+}
+h1,
+.source {
+  column-span: all;
+}
+h2 {
+  /* column-span: all; */
 }
